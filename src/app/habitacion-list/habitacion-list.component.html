@@ -13,13 +13,12 @@
 
         <div style="text-align: center; width: 90%; margin: 0 auto; padding: 5%;">
           <app-comments (newCommentAdded)="onNewCommentAdded($event)"></app-comments>
-        </div>
-
-        <button routerLink="/habitacion/individual">Habitación Individual</button>
+          <button routerLink="/habitacion/individual">Habitación Individual</button>
         <button routerLink="/habitacion/doble">Habitación Doble</button>
         <button routerLink="/habitacion/triple">Habitación Triple</button>
         <button routerLink="/habitacion/familiar">Habitación Familiar</button>
         <button routerLink="/habitacion/suite">Habitación Suite</button>
+        </div>
         <router-outlet></router-outlet>
         
         
